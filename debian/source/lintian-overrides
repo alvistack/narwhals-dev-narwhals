@@ -1,0 +1,5 @@
+python-narwhals source: file-without-copyright-information
+python-narwhals source: no-debian-changes
+python-narwhals source: source-contains-prebuilt-windows-binary
+python-narwhals source: source-is-missing
+python-narwhals source: source-package-encodes-python-version
