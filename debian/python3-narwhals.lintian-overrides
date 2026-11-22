@@ -1,0 +1,4 @@
+python3-narwhals: copyright-without-copyright-notice
+python3-narwhals: initial-upload-closes-no-bugs
+python3-narwhals: no-manual-page
+python3-narwhals: zero-byte-file-in-doc-directory

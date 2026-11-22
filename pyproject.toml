@@ -1,7 +1,7 @@
 # Reference: https://packaging.python.org/en/latest/guides/writing-pyproject-toml
 [build-system]
-requires = ["uv_build>=0.11.0,<0.13.0"]
-build-backend = "uv_build"
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "narwhals"
@@ -11,8 +11,7 @@ requires-python = ">=3.10"
 authors = [
   { name = "Marco Gorelli", email = "hello_narwhals@proton.me" },
 ]
-license = "MIT"
-license-files = ["LICENSE.md"]
+license = { text = "MIT" }
 description = "Extremely lightweight compatibility layer between dataframe libraries"
 readme = "README.md"
 keywords = ["dataframes", "interoperability", "pandas", "polars", "pyarrow", "dask", "modin", "cudf"]
